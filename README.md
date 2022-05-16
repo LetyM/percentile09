@@ -20,4 +20,6 @@ Percentile09 returns, given a parquet file, a csv file with all the trips over 0
 
 Go to 'Test' folder and run percentile09_test.sh.
 
+![img](https://github.com/LetyM/percentile09/blob/main/run_test.png)
+
 It'll run the proccess with example inputs and return the result into 'Test/Output' folder.
