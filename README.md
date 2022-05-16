@@ -3,10 +3,10 @@ Percentile09 returns, given a parquet file, a csv file with all the trips over 0
 
 ## Content
 
-* percentile09.sh: It runs the percentile09.py script. Needs you to provide:
-- An input file url with parquet extension.
-- The column's name with the distance data.
-- A name for the output csv file.
+* percentile09.sh: Runs the percentile09.py script. Needs you to provide:
+1) An input file url with parquet extension.
+2) The column's name with the distance data.
+3) A name for the output csv file.
 
 * percentile09.py: Reads the parquet file, calculates the percentile and returns the csv file with all the rows that meet criteria.
 
@@ -18,4 +18,6 @@ Percentile09 returns, given a parquet file, a csv file with all the trips over 0
 
 ## How to test it?
 
-Go to 'Test' and run percentile09_test.sh. It'll run the proccess with an example url and return the result into 'Test/Output' folder.
+Go to 'Test' folder and run percentile09_test.sh.
+
+It'll run the proccess with example inputs and return the result into 'Test/Output' folder.
