@@ -35,6 +35,6 @@ NOTE: Did you get the following error?
 
 ![img](https://github.com/LetyM/percentile09/blob/main/parquet_error.png)
 
-In order to read parquet files, it's required to install 'fastparquet' package
+In order to solve it, it's required to install 'fastparquet' package
 
 ![img](https://github.com/LetyM/percentile09/blob/main/install_fastparquet.png)
