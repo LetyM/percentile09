@@ -30,3 +30,11 @@ Go to 'Test' folder and run percentile09_test.sh.
 ![img](https://github.com/LetyM/percentile09/blob/main/run_test.png)
 
 It'll run the proccess with example inputs and return the result into 'Test/Output' folder.
+
+NOTE: Did you get the following error?
+
+![img](https://github.com/LetyM/percentile09/blob/main/parquet_error.png)
+
+In order to read parquet files, it's required to install 'fastparquet' package
+
+![img](https://github.com/LetyM/percentile09/blob/main/install_fastparquet.png)
